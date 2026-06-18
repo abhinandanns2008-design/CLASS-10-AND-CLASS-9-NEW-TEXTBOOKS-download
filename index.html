@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 9 & 10 CBSE Textbooks</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            min-height:100vh;
+            background-image: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1600&q=80");
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px;
+        }
+
+        .container{
+            width:90%;
+            max-width:800px;
+            background: rgba(255,255,255,0.88);
+            padding:40px;
+            border-radius:15px;
+            box-shadow:0 8px 20px rgba(0,0,0,0.3);
+            text-align:center;
+            animation: fadeIn 0.8s ease;
+        }
+
+        @keyframes fadeIn{
+            from{
+                opacity:0;
+                transform:translateY(20px);
+            }
+            to{
+                opacity:1;
+                transform:translateY(0);
+            }
+        }
+
+        .logo{
+            width:350px;
+            max-width:100%;
+            margin-bottom:20px;
+        }
+
+        h1{
+            color:#003366;
+            margin-bottom:15px;
+            font-size:2rem;
+        }
+
+        .subtitle{
+            color:#444;
+            font-size:1.1rem;
+            margin-bottom:30px;
+        }
+
+        .links{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+            margin-bottom:30px;
+        }
+
+        .btn{
+            text-decoration:none;
+            background:#0056b3;
+            color:white;
+            padding:12px 25px;
+            border-radius:8px;
+            font-size:1rem;
+            font-weight:bold;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#003d82;
+            transform:translateY(-3px);
+            box-shadow:0 5px 12px rgba(0,0,0,0.25);
+        }
+
+        .notice{
+            background:#f4f8ff;
+            padding:15px;
+            border-left:5px solid #0056b3;
+            text-align:left;
+            line-height:1.6;
+            border-radius:5px;
+            color:#333;
+        }
+
+        footer{
+            margin-top:25px;
+            color:#666;
+            font-size:0.9rem;
+        }
+
+        .credit{
+            position:fixed;
+            bottom:10px;
+            left:10px;
+            color:white;
+            font-size:14px;
+            font-weight:bold;
+            text-shadow:1px 1px 4px rgba(0,0,0,0.8);
+            z-index:1000;
+        }
+
+        @media(max-width:600px){
+            h1{
+                font-size:1.5rem;
+            }
+
+            .container{
+                padding:25px;
+            }
+
+            .btn{
+                width:100%;
+            }
+
+            .credit{
+                font-size:12px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <img src="https://www.cbse.gov.in/cbsenew/img/cbse-logo-with-name.png"
+             alt="Central Board of Secondary Education Logo"
+             class="logo">
+
+        <h1>CBSE Class 9 & 10 Textbooks</h1>
+
+        <p class="subtitle">
+            Download the latest revised CBSE textbooks according to the new syllabus.
+        </p>
+
+        <div class="links">
+            <a href="CLASS9.html" class="btn">📚 Class 9 Textbooks</a>
+            <a href="CLASS10.html" class="btn">📖 Class 10 Textbooks</a>
+        </div>
+
+        <div class="notice">
+            As per the latest CBSE curriculum, the textbooks for
+            Classes 9 and 10 have been revised. Students are requested
+            to download and use the updated textbooks available through
+            the links above.
+        </div>
+
+        <footer>
+            © 2026 CBSE Textbook Portal
+        </footer>
+
+    </div>
+
+    <div class="credit">
+        Designed and Created By Abhinandan N S
+    </div>
+
+</body>
+</html>

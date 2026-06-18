@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yet to be Designed</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Notebook background */
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: #fdfdf7;
+        background-image: 
+            linear-gradient(to bottom, rgba(0,0,0,0.08) 1px, transparent 1px);
+        background-size: 100% 35px;
+
+        position: relative;
+    }
+
+    /* Red margin line */
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 80px;
+        width: 2px;
+        height: 100%;
+        background: rgba(255, 0, 0, 0.25);
+    }
+
+    .box {
+        text-align: center;
+        padding: 40px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+        backdrop-filter: blur(3px);
+    }
+
+    h1 {
+        font-size: 32px;
+        color: #333;
+        letter-spacing: 2px;
+    }
+
+    p {
+        margin-top: 10px;
+        color: #666;
+        font-size: 16px;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="box">
+    <h1>🚧 YET TO BE DESIGNED 🚧</h1>
+    <p>This page is under development</p>
+</div>
+
+</body>
+</html>
